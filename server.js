@@ -13,7 +13,6 @@ app.get('/', (req, res) => {
   res.send('${HOST}:${PORT}\n');
 });
 
-
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : '172.17.0.1',
